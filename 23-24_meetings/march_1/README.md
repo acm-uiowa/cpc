@@ -4,9 +4,12 @@
 Given an array of integers, you need to find the maximum value in different subarrays multiple times.
 
 ## Solutions
+<details>
+
 
 ### 1. For Loop
 <details>
+
   <summary>Click to expand</summary>
   
   **Approach:** Iterate through the specified subarray and find the maximum value.
@@ -15,7 +18,24 @@ Given an array of integers, you need to find the maximum value in different suba
   - **Space Complexity:** O(1), as no extra space is required.
 </details>
 
-### 2. Segment Tree
+<details>
+
+
+### 2. NxN Matrix
+<details>
+  <summary>Click to expand</summary>
+  
+  **Approach:** Create an nxn matrix where each cell (i, j) stores the maximum value in the subarray from index i to j.
+
+  - **Time Complexity:** 
+    - Building the matrix: O(n^2), where n is the size of the array.
+    - Querying for the maximum: O(1) for each query.
+  - **Space Complexity:** O(n^2), as the matrix requires additional space proportional to the square of the size of the array.
+</details>
+
+<details>
+
+### 3. Segment Tree
 <details>
   <summary>Click to expand</summary>
   
@@ -26,15 +46,7 @@ Given an array of integers, you need to find the maximum value in different suba
     - Querying for the maximum: O(log n) for each query.
   - **Space Complexity:** O(n), as the segment tree requires additional space proportional to the size of the array.
 </details>
+</details>
+</details>
 
-### 3. NxN Matrix
-<details>
-  <summary>Click to expand</summary>
-  
-  **Approach:** Create an nxn matrix where each cell (i, j) stores the maximum value in the subarray from index i to j.
-
-  - **Time Complexity:** 
-    - Building the matrix: O(n^2), where n is the size of the array.
-    - Querying for the maximum: O(1) for each query.
-  - **Space Complexity:** O(n^2), as the matrix requires additional space proportional to the square of the size of the array.
 </details>
