@@ -50,3 +50,9 @@ Given an array of integers, you need to find the maximum value in different suba
 </details>
 
 </details>
+
+
+## Solve some yourself
+https://leetcode.com/tag/segment-tree/
+https://leetcode.com/problems/queue-reconstruction-by-height/
+https://leetcode.com/problems/rectangle-area-ii/
